@@ -12,9 +12,9 @@ body {
 div {
   font-family: cursive;
   padding: 8px;
-      
   /* Set the height and the width of the box to 150px. */
-
+  height: 150px;
+  width: 150px;
   /* Make the background color "hotpink". */
 
   /* Make the text color "white". */
