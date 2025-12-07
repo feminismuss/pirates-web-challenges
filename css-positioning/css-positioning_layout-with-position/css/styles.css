@@ -19,10 +19,14 @@ body {
  * document is scrolled.
  */
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   background: #370182;
   color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 10px 30px;
+  z-index: 10;
 }
 
 .header__subheading {
@@ -40,6 +44,9 @@ body {
  * document is scrolled.
  */
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   height: 48px;
   color: #ffffff;
   background: #370182;
@@ -57,6 +64,7 @@ body {
   background-color: #ebddfa;
   scroll-margin-top: 150px;
   border-radius: 5px;
+  position: relative;
 }
 
 .card__heading {
@@ -74,6 +82,9 @@ body {
   padding: 6px 12px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  position: absolute;
+  top: 5PX;
+  right: 5px;
 }
 
 /**
@@ -87,4 +98,7 @@ body {
   border-radius: 5px;
   background-color: #ff4a11;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+position: fixed;
+bottom: 60px;
+left: 30px;
 }
