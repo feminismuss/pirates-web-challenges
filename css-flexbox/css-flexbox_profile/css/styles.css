@@ -18,6 +18,12 @@ h2 {
   background: #fddcd2;
   color: #3f0097;
 }
+.profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
 
 .profile__image {
   object-fit: cover;
