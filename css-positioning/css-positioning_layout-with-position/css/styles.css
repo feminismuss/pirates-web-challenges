@@ -26,6 +26,7 @@ body {
   color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 10px 30px;
+  z-index: 10;
 }
 
 .header__subheading {
@@ -97,4 +98,7 @@ body {
   border-radius: 5px;
   background-color: #ff4a11;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+position: fixed;
+bottom: 60px;
+left: 30px;
 }
