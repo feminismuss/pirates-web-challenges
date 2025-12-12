@@ -10,7 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const title = "christmas Holiday";
+const content = "todos for the holiday";
+const noOfLikes = 12;
+const author = "Mom";
+const isReported = false;
 // --^-- write your code here --^--
 
 /*
