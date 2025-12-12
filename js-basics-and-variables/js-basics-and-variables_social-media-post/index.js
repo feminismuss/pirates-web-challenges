@@ -12,7 +12,7 @@ console.clear();
 // --v-- write your code here --v--
 const title = "christmas Holiday";
 const content = "todos for the holiday";
-const noOfLikes = 12;
+let noOfLikes = 12;
 const author = "Mom";
 const isReported = false;
 // --^-- write your code here --^--
@@ -22,5 +22,13 @@ const isReported = false;
 */
 
 // --v-- write your code here --v--
+console.log(title);
+console.log(content);
+console.log(noOfLikes);
+console.log(author);
+console.log(isReported);
+
+noOfLikes += 1;
+console.log(noOfLikes);
 
 // --^-- write your code here --^--
