@@ -10,12 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-const title = "Social Media Post";
-const text = "this is the incredible text for my dummy social media post";
-let numberOfLikes = 17;
-const user = "Author Axel";
-const isReported = false;
-
+const title = "My favorite day of the year";
+const text = "This was the highlight of my last vacation";
+let numberOfLikes = 69;
+const author = "Merle Mak";
+const isReported = true;
 // --^-- write your code here --^--
 
 /*
@@ -23,11 +22,14 @@ const isReported = false;
 */
 
 // --v-- write your code here --v--
-console.log("Titel:", title);
-console.log("Content:", text);
-console.log("Likes:", numberOfLikes);
-console.log("Writer:", user);
+console.log(title);
+console.log(text);
+console.log(numberOfLikes);
+console.log(author);
 console.log(isReported);
+
 numberOfLikes += 1;
-console.log("Likes: ", numberOfLikes);
+
+console.log(numberOfLikes);
+
 // --^-- write your code here --^--
