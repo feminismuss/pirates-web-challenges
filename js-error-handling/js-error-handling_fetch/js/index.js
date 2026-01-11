@@ -7,8 +7,11 @@ const errorElement = document.querySelector("[data-js='error']");
 async function fetchUserData(url) {
   try {
     const response = await fetch(url, {
-      headers: { "x-api-key": "reqres-free-v1" },
+      headers: { "x-api-key": "reqres_c0aaf46c1fa2400e8fb8669bacd63171" },
     });
+    if (!response.ok) {
+      throw new Error(`Request failed with status ${response.status}`);
+    }
 
     return await response.json();
   } catch (error) {
