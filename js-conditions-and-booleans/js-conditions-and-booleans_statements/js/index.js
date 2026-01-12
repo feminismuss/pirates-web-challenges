@@ -5,8 +5,17 @@ const SUPER_SECRET_PASSWORD = "h4x0r1337";
 
 const receivedPassword = "password1234";
 
+if (SUPER_SECRET_PASSWORD === receivedPassword) {
+  console.log("Welcome! You are logged in as Brunhilde1984");
+} else {
+  console.log("Access denied!");
+}
+
 // Part 2: Even / Odd
 const number = 6;
+if (number % 2 === 0) {
+    console.log('Number is even')
+} else {console.log('Number is odd')}
 
 // Part 3: Hotdogs
 const numberOfHotdogs = 42;
