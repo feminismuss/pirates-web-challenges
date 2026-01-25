@@ -29,7 +29,7 @@ Can you display a "⏳" icon while waiting for the response?
 
 The API might be unreachable, preventing the network request from being established. This case would cause the promise returned by `fetch()` to reject, potentially breaking the app.
 
-Can you implement error handling to catch such cases and display the 🚨 icon if this happens?
+Can you implement error handling to catch such cases and display the  🚨icon if this happens?
 
 > _Hint:_ This type of error is unlikely to occur by chance. To test it, simulate the situation using your browser's developer tools.
 > Follow this [Firefox Docs guide](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_list/index.html#blocking-specific-urls) to block the request. Use the wildcard `*` to block all requests. Don't forget to disable this setting after testing.
