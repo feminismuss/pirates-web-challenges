@@ -25,4 +25,4 @@
 - [ ] component for Navigation
 - [ ] navigation shows active page
 - [ ] Button on Moviecarddetails to add and remove to watchlist
-
+- [ ] notification, when collection is empty

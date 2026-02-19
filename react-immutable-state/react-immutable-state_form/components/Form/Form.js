@@ -11,10 +11,12 @@ export default function Form() {
   });
 
   function handleNameChange(event) {
-    setMountain
+    setMountain({...mountain, name: event.target.value})
   }
 
-  function handleAltitudeChange(event) {}
+  function handleAltitudeChange(event) {
+     setMountain({...mountain, altitude: event.values.target.value})
+  }
 
   function handleMountainRangeChange(event) {}
 
